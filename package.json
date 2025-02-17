@@ -1,8 +1,17 @@
 {
-  "type": "module",
+  "name": "puppeteer-gpt",
+  "version": "1.0.0",
+  "description": "This script uses the ChatGPT API and Puppeteer to control Google Chrome in order to browse the internet. You can use it to get current information off the internet or accomplish tasks such as filling out forms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
-    "puppeteer": "^20.9.0",
+    "cheerio": "^1.0.0",
+    "puppeteer": "^24.2.1",
     "readline": "^1.3.0"
   }
 }
