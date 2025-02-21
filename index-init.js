@@ -1,5 +1,4 @@
 "use strict";
-
 import fs from 'fs';
 import puppeteer, { TimeoutError } from 'puppeteer';
 import cheerio from 'cheerio';
